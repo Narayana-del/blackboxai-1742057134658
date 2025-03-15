@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto">
+        <h1 class="text-2xl font-bold">Farmer App for Gherkin Production</h1>
+        <form id="farmerForm" class="mt-4">
+            <input type="text" name="agreement_no" placeholder="Agreement No" required class="border p-2 mb-2 w-full">
+            <input type="text" name="name" placeholder="Farmer Name" required class="border p-2 mb-2 w-full">
+            <input type="text" name="father_name" placeholder="Father's Name" required class="border p-2 mb-2 w-full">
+            <input type="text" name="village" placeholder="Village" required class="border p-2 mb-2 w-full">
+            <input type="text" name="district" placeholder="District" required class="border p-2 mb-2 w-full">
+            <input type="text" name="taluk" placeholder="Taluk" required class="border p-2 mb-2 w-full">
+            <input type="text" name="pincode" placeholder="Pincode" required class="border p-2 mb-2 w-full">
+            <input type="number" name="acres" placeholder="Acres" required class="border p-2 mb-2 w-full">
+            <input type="date" name="sowing_date" required class="border p-2 mb-2 w-full">
+            <input type="text" name="sowing_type" placeholder="Sowing Type" required class="border p-2 mb-2 w-full">
+            <input type="text" name="crop_scheme" placeholder="Crop Scheme" required class="border p-2 mb-2 w-full">
+            <button type="submit" class="bg-blue-500 text-white p-2">Add Farmer</button>
+        </form>
+        <div id="response" class="mt-4"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
